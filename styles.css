@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+}
+
+header {
+    background-color: transparent;
+    color: #333; /* Dark gray text color */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0073e6; /* AirUp blue */
+}
+
+main {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero {
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button.menu-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.menu-button:hover {
+    background-color: #0073e6; /* AirUp blue */
+    transform: scale(1.05);
+}
+
+.website-iframe {
+    display: none;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
